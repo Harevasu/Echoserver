@@ -30,7 +30,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.sendall(b"Hello, world")
     data = s.recv(1024)
 print(f"Received {data!r}")
-
 ```
 
 # Server Side:
@@ -46,7 +45,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         print(f"Connected by {addr}")
         while  data := conn.recv(1024):
             conn.sendall(data)
-
 ```
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/d5592b8b-4b78-4001-a264-a2ffb21475c6)
