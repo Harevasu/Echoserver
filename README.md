@@ -49,7 +49,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 
 ```
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/92323887-e11f-4759-8abb-268e29e7ba64)
+![image](https://github.com/user-attachments/assets/d5592b8b-4b78-4001-a264-a2ffb21475c6)
 
 
 ## RESULT:
